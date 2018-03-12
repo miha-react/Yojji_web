@@ -23,8 +23,11 @@ export default {
   height: auto;
 }
 @media only screen and (max-width: 320px){
+  .image_holder{
+    left: 0%;
+  }
   .image_holder img{
-    display: none;
+    max-width: 70%;
   }
 }
 @media only screen and (max-width: 1400px ){
@@ -46,6 +49,17 @@ export default {
 @media only screen and (max-width: 800px){
   .image_holder img{
     max-width: 70%;
+  }
+}
+
+@media only screen and (max-height: 414px) {
+.image_holder img{
+  max-width: 45%;
+}
+}
+@media only screen and (max-height: 320px) {
+  .image_holder img{
+    max-width: 35%;
   }
 }
 </style>

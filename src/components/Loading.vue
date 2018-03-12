@@ -71,4 +71,16 @@ export default {
     max-width: 75%;
   }
 }
+
+@media only screen and (max-height: 320px) {
+  .coming{
+    font-size: 28px;
+  }
+  .loading{
+    top: 54%;
+  }
+  .loading img{
+    max-width: 65%;
+  }
+}
 </style>

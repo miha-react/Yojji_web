@@ -103,4 +103,47 @@ body {
     right: 0;
   }
 }
+@media only screen and (max-width: 414px){
+  .svg_cross{
+    top: 20%;
+  }
+  .svg_circle{
+    width: 150px;
+    top: 18%;
+  }
+}
+@media only screen and (max-width: 320px){
+  .svg_cross{
+    display: none;
+  }
+  .svg_circle{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .svg_cross{
+    display: none;
+  }
+  .svg_circle{
+    width: 150px;
+    top: 20%;
+  }
+}
+
+@media only screen and (max-height: 414px) {
+  .svg_circle{
+    width: 130px;
+    top: 0;
+  }
+}
+@media only screen and (max-height: 320px) {
+  .svg_circle{
+    display: none;
+  }
+  .svg_circle_small{
+    top: 30%;
+  }
+}
+
 </style>
