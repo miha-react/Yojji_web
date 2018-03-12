@@ -17,8 +17,8 @@ export default {
 <style scoped>
 .social_container{
   position: absolute;
-  bottom: 40px;
-  right: 20%;
+  bottom: 20px;
+  right: 5%;
   z-index: 10;
 }
 .social{
@@ -33,5 +33,29 @@ export default {
   text-underline-position: under;
   color: black;
   text-decoration-style: solid;
+}
+@media only screen and (max-width: 1200px){
+.social_container{
+  right: 5%;
+}
+}
+@media only screen and (max-width: 900px){
+.social_container{
+  right: 5%;
+}
+.social{
+  flex-direction: column;
+}
+.social li{
+  margin-bottom: 10px;
+}
+.social li:last-child{
+  margin-bottom: 0;
+}
+}
+@media only screen and (max-width: 320px ){
+.social_container{
+
+}
 }
 </style>

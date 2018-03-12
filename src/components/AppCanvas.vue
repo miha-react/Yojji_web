@@ -21,8 +21,10 @@ export default {
   bottom: 3px;
   z-index: 0;
 }
-canvas{
-
-
+@media only screen and (max-width: 768px){
+.canvas_holder{
+  display: none;
 }
+}
+
 </style>
