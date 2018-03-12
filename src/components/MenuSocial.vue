@@ -17,7 +17,7 @@ export default {
 <style scoped>
 .social_container{
   position: absolute;
-  bottom: 20px;
+  bottom: 10px;
   right: 5%;
   z-index: 10;
 }
@@ -55,7 +55,10 @@ export default {
 }
 @media only screen and (max-width: 320px ){
 .social_container{
-
+  right: 0%;
+}
+.social li{
+  padding-right: 10px;
 }
 }
 </style>

@@ -83,4 +83,9 @@ export default {
     max-width: 65%;
   }
 }
+@media only screen and (max-width: 320px){
+  .loading{
+    top: 30%;
+  }
+}
 </style>

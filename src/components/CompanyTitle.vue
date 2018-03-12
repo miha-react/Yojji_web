@@ -41,4 +41,10 @@ export default {
 .company_description{
   margin: 15px 0 15px 0;
 }
+@media only screen and (max-width: 320px ){
+.title_container{
+  margin-top: 15px;
+}
+}
+
 </style>
