@@ -27,7 +27,6 @@ import Loading from './components/Loading';
 import MenuSocial from './components/MenuSocial';
 import Canvas from './components/AppCanvas';
 import AppImage from './components/AppImage';
-import './utils/MorphSVGPlugin';
 import './utils/animate';
 
 export default {

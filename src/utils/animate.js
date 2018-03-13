@@ -1,4 +1,4 @@
-import TimelineMax from 'gsap/TimelineMax';
+import TimelineMax from './TimelineMax';
 import morphSVG from './MorphSVGPlugin';
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const circle = document.querySelector('.circle_small');
 
   cross.addEventListener('click', () => {
+    console.log('Test')
     tl.to(cross, 1, { morphSVG: circle }, '0');
   });
 });

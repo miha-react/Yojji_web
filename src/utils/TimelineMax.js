@@ -1309,9 +1309,9 @@ var _gsScope = (typeof(module) !== "undefined" && module.exports && typeof(globa
 		return (_gsScope.GreenSockGlobals || _gsScope)[name];
 	};
 	if (typeof(module) !== "undefined" && module.exports) { //node
-		require("gsap/TweenLite"); //dependency
+		require("./TweenLite"); //dependency
 		module.exports = getGlobal();
 	} else if (typeof(define) === "function" && define.amd) { //AMD
-		define(["gsap/TweenLite"], getGlobal);
+		define(["./TweenLite"], getGlobal);
 	}
 }("TimelineMax"));
