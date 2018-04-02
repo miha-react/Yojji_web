@@ -16,12 +16,11 @@ export default {
 <style scoped>
 .title_container{
   position: absolute ;
-  top: 0;
+  top: 40px;
   left: 30%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-top: 40px;
   z-index: 1;
 }
 .title_container::before{
@@ -40,11 +39,6 @@ export default {
 }
 .company_description{
   margin: 15px 0 15px 0;
-}
-@media only screen and (max-width: 320px ){
-.title_container{
-  margin-top: 15px;
-}
 }
 
 </style>

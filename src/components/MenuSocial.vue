@@ -34,31 +34,4 @@ export default {
   color: black;
   text-decoration-style: solid;
 }
-@media only screen and (max-width: 1200px){
-.social_container{
-  right: 5%;
-}
-}
-@media only screen and (max-width: 900px){
-.social_container{
-  right: 5%;
-}
-.social{
-  flex-direction: column;
-}
-.social li{
-  margin-bottom: 10px;
-}
-.social li:last-child{
-  margin-bottom: 0;
-}
-}
-@media only screen and (max-width: 320px ){
-.social_container{
-  right: 0%;
-}
-.social li{
-  padding-right: 10px;
-}
-}
 </style>
