@@ -1,9 +1,9 @@
 <template>
 <div class="social_container">
   <ul class="social">
-    <li><a href="#">Contact us via email</a></li>
-    <li><a href="#">Linkedin</a></li>
-    <li><a href="#">Facebook</a></li>
+    <li><a href="mailto:company@yojji.io">company@yojji.io</a></li>
+    <li><a href="https://www.linkedin.com/company/yojji/" target="_blank" >Linkedin</a></li>
+    <li><a href="https://www.facebook.com/yojji.io" target="_blank">Facebook</a></li>
   </ul>
 </div>
 </template>

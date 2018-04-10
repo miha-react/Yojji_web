@@ -1,10 +1,10 @@
 <template>
   <div class="title_container">
-    <h1 class="company_title">Yojii</h1>
-    <span class="company_description">Software development</span>
+    <h1 class="company_title">Yojji</h1>
+    <span class="company_description">JavaScript full stack
+      development and product design</span>
     <span>UX / UI design</span>
   </div>
-
 </template>
 
 <script>
@@ -24,8 +24,8 @@ export default {
   z-index: 1;
 }
 .title_container::before{
-  right: -37%;
-  top: 7%;
+  left: 0;
+  top: 0;
   content: '';
   display: block;
   position: absolute;
@@ -39,6 +39,7 @@ export default {
 }
 .company_description{
   margin: 15px 0 15px 0;
+  text-align: left;
 }
 
 </style>

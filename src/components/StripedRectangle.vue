@@ -12,6 +12,11 @@
   height: 75px;
   background: repeating-linear-gradient( -45deg, #fff, #fff 4px, #000 3px, #000 5px );
 }
+@media (max-width: 900px) {
+  .rectangle{
+    display: none;
+  }
+}
 </style>
 
 <script>
